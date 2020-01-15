@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Document</title>
+    <style>
+        * {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	background-color: rgb(28, 75, 82);
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 20px;
+}
+h2 {
+	font-size: 2.5em;
+	margin: 20px;
+}
+
+.set-length {
+	font-size: 1.5em;
+	width: 10%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+}
+.arrow-down,
+.arrow-up {
+	cursor: pointer;
+}
+
+.time-counter {
+	width: 25%;
+	margin: auto;
+	padding: 8px;
+	border: 8px solid rgba(20, 47, 51, .0788);
+	border-radius: 50px;
+}
+h3 {
+	font-size: 2em;
+}
+
+.counter {
+	font-size: 3em;
+	line-height: 5px;
+}
+
+.counter-Puse {
+	width: 8%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.play {
+	cursor: pointer;
+}
+.puse {
+	cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='title'>
+            <h1>Pomodoro Clock</h1>
+            <h2>Session Length</h2>
+        </div>
+
+    <div>
+        <div class="set-length">
+            
+            <i  style='font-size:40px' class='far arrow-up'>&#xf150;</i>
+            <p class='session-length'>01:00</p>
+            <i style='font-size:40px' class='far arrow-down'>&#xf151;</i>
+        </div>
+    </div>
+    <div class="time-counter">
+        <h3>Session</h3>
+        <p class="counter"> 01 : 00</p>
+    </div>
+    <div class="counter-Puse">
+        
+        <i style='font-size:40px' id='play' class='far play'>&#xf152;</i>
+        <i style='font-size:40px'id='puse' class='fas puse'>&#xf04c;</i>
+
+    </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
