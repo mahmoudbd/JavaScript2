@@ -1,0 +1,75 @@
+body {
+	background-color: #68150a;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: unset;
+	/*line-height: 15px;*/
+}
+.main {
+	background-color: whitesmoke;
+	min-width: 40%;
+	text-align: center;
+	border: inherit solid 2px;
+	border-radius: 10%;
+	font-size: 20px;
+}
+
+.title {
+	background-color: #1f020b;
+	color: #fff;
+	padding: 15px;
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: 600;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#calc-btn {
+	width: 100%;
+	text-align: center;
+	font-weight: 600;
+}
+
+select {
+	width: 52.2%;
+	height: 40px;
+	font-weight: 700;
+	font-size: 20px;
+	margin-left: 5px;
+}
+input {
+	width: 50%;
+	height: 25px;
+
+	padding: 5px;
+	font-size: 21px;
+}
+
+#btn {
+	background-color: #a71238;
+	color: #fff;
+	border: none;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-weight: 600;
+	cursor: pointer;
+}
+#btn:hover {
+	color: #a71238;
+	background-color: #1f020b;
+}
+
+#people-number {
+	margin-left: 60px;
+}
+#Each {
+	font-size: 25px;
+}
+
+.info {
+	line-height: 5px;
+}
